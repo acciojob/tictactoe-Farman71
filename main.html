@@ -1,16 +1,33 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-main" id="formContainer">
+        <div class="box1">
+          <h1>Tic Tac Toe</h1>
+        </div>
+        <div class="box">
+          <label for="player1">Player 1</label>
+          <input type="text" id="player1" placeholder="Enter Name" />
+        </div>
+        <div class="box">
+          <label for="player2">Player 2</label>
+          <input type="text" id="player2" placeholder="Enter Name" />
+        </div>
+        <button type="button" value="game" id="submit">Start Game</button>
+      </div>
+      <div id="gameBoard" class="hidden"></div>
+      <div class="message"></div>
+        <!-- Tic Tac Toe board will be created here -->
+      </div>
+    </div>
 
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
